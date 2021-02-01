@@ -4,9 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeMirror 6: Broken backspace</title>
+    <style>
+      code {
+        background-color: lightblue;
+        padding: 3px;
+        border-radius: 2px;
+      }
+    </style>
   </head>
   <body>
-    <div id="editor"></div>
+    <h1>CodeMirror 6: Broken backspace</h1>
+    <h2>Python</h2>
+    <p>
+      Type an underscore pretty much anywhere in the document. You won't be able
+      to backspace anymore until you type something else.
+    </p>
+    <p>Only on iOS devices; it works fine on Android and desktop.</p>
+    <div id="editor-python"></div>
+    <h2>SQL</h2>
+    <p>
+      After a valid query, add some nonsense and a quote, e.g.
+      <code>SELECT 'SQL'; the"</code>. You won't be able to remove it at all. By
+      tapping backspace repeatedly, you can sometimes make the cursor move back
+      a few characters, but it won't remove the text.
+    </p>
+    <p>Broken on iOS, Android <em>and</em> desktop!</p>
+    <div id="editor-sql"></div>
     <script src="index.ts"></script>
   </body>
 </html>

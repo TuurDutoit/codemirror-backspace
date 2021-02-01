@@ -961,6 +961,17 @@
     "@codemirror/language" "^0.17.0"
     lezer-python "^0.13.0"
 
+"@codemirror/lang-sql@^0.17.1":
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/@codemirror/lang-sql/-/lang-sql-0.17.1.tgz#4f6ba46bb6c26279c70c02210db365587c160c23"
+  integrity sha512-aCWTr1Pg0CTnhiWDDULu0sXkgiVLsW1fk0NjwkEjc8oKBfiY2mop/Xcrdngsjp+xLGKgU04TkQ1gTuwn+gv8/Q==
+  dependencies:
+    "@codemirror/autocomplete" "^0.17.0"
+    "@codemirror/highlight" "^0.17.0"
+    "@codemirror/language" "^0.17.0"
+    "@codemirror/state" "^0.17.0"
+    lezer "^0.13.0"
+
 "@codemirror/language@^0.17.0":
   version "0.17.4"
   resolved "https://registry.yarnpkg.com/@codemirror/language/-/language-0.17.4.tgz#c5755385cb0c2765e8d959e40491ea9a9a30d703"
